@@ -73,3 +73,4 @@ console.log(false && "some string"); //false
 console.log(true || "some string"); //true => because it first looks for truthy value and returns it
 console.log(false || "some String"); //some string
 console.log(null || "Some String"); //returns truthy value and ignores false value -> null, undefined, 0, "";
+console.log("hello world");
